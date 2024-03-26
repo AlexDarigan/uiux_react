@@ -44,7 +44,7 @@ export default function LoginForm() {
         color: '#FFDB99', 
         fontFamily: 'roboto',             
         textShadow: '1px 1px 1px  #000, 1px 1px 1px  #000, 1px 1px 1px  #000, 1px 1px 1px  #000'}}>
-          {label}
+          <b>{label}</b>
       </label>
       <div style={{display: 'flex', flexDirection: 'row', alignContent: 'center'}}>
         {/* <div> */}
