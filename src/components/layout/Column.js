@@ -7,7 +7,7 @@ export default function Column(props) {
                 flexDirection: props.flexDirection,
                 alignItems: props.alignItems,
                 height: props.height,
-                margin: props.margin
+                margin: props.margin,
                 // border: '2px black solid'
       }}
     >

@@ -12,7 +12,9 @@ export default function Panel(props) {
                 backgroundColor: props.backgroundColor,
                 border: props.border,
                 borderRadius: props.borderRadius,
-                boxShadow: props.boxShadow
+                boxShadow: props.boxShadow,
+                alignSelf: props.alignSelf,
+                alignContent: props.alignContent
             }}>
                 {props.children}
             </div>        
@@ -27,5 +29,7 @@ Panel.defaultProps = {
     backgroundColor: 'royalblue',
     border: '4px black solid',
     borderRadius: '16px',
-    boxShadow: '2px 2px 2px'
+    boxShadow: '2px 2px 2px',
+    alignSelf: 'stretch',
+    alignContent: 'flex-start'
 }

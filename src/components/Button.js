@@ -10,6 +10,7 @@ export default function Button(props) {
             boxShadow: props.boxShadow,
             borderRadius: props.borderRadius,
             marginLeft: props.marginLeft,
+            marginBottom: props.marginBottom,
             alignItems: props.alignItems,
             justifyContent: props.justifyContent,
         }}>
@@ -28,6 +29,7 @@ Button.defaultProps = {
     boxShadow: '2px 2px 0',
     borderRadius: '8px',
     marginLeft: '0px',
+    marginBottom: '0px',
     alignItems: 'center',
     justifyContent: 'center',
 }
