@@ -7,7 +7,7 @@ export default function Header() {
           display: "flex",
           flexDirection: "row",
           height: '60px', 
-          backgroundColor: '#4D8CFF', 
+          backgroundColor: 'cornflowerblue', 
           color: '#fff'}}>
             <div style={{
               height: '100%',

@@ -24,7 +24,7 @@ export default function BrowseCards() {
             justifyContent: 'center',
             marginTop: '24px',
             marginBottom: '32px',
-            backgroundColor: "#005AFF", 
+            backgroundColor: "RoyalBlue", 
             border: '4px black solid',
             borderRadius: '8px'}}
         >

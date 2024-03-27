@@ -3,7 +3,7 @@ export default function Body({content}) {
       <body style={{
             display: "flex", 
             flexDirection: "column", 
-            backgroundColor: '#FFDB99', 
+            backgroundColor: 'wheat', 
             flex: 1
         }}>
         {content}

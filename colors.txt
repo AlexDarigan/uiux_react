@@ -1,0 +1,4 @@
+wheat -> (pale gold)
+orange -> (borders / buttons)
+cornflowerblue -> (headers)
+royalblue -> (panel backgrounds)
