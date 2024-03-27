@@ -1,4 +1,5 @@
 import { ReactComponent as Hamburger } from 'src/Hamburger.svg'
+import IconButton from 'src/components/IconButton'
 
 export default function Header() {
     return (
@@ -17,7 +18,9 @@ export default function Header() {
               flex: 0.96
             }}>
            <Logo/>
-           <HamburgerMenuButton/>
+           <IconButton>
+            <Hamburger style={{width: '100%', height: '100%'}}></Hamburger>
+           </IconButton>
             </div>
         </header>
     )
@@ -40,22 +43,3 @@ function Logo() {
     )
 };
 
-function HamburgerMenuButton() {
-    return (
-        <button
-            style={{
-                display: 'flex',
-                flexDirection: 'column',
-                margin: 'auto',
-                padding: 'auto',
-                width: '42px',
-                height: '42px',
-                backgroundColor: "#FFA500",
-                borderRadius: '8px',
-                boxShadow: '2px 2px 2px'
-            }}
-        >
-            <Hamburger style={{width: '100%', height: '100%'}}/>
-        </button>
-    )
-}
