@@ -5,10 +5,12 @@ import LoginForm from "./pages/LoginForm";
 import CreateAccountForm from "./pages/CreateAccountForm";
 import BrowseCards from "./pages/BrowseCards";
 import CardDetails from "./pages/CardDetails";
+import CartPage from "./pages/CartPage";
 import './index.css'
 
+
 /* TODO
-  Checkout Page (JS)
+  Checkout Page (Prototype / Figma / JS)
   Sellers Page (Prototype / Figma / JS)
   Inbox Page (Prototype / Figma / JS)
   Trade Page (Prototype / Figma / JS)
@@ -34,7 +36,7 @@ function App() {
         flexDirection: 'column', 
         minHeight: '100vh'}}>
     <Header/>   
-    <Body content={<CardDetails/>}/>    
+    <Body content={<CartPage/>}/>    
     {/* <Footer/> */}
     </div>
   );
