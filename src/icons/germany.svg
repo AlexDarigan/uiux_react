@@ -1,0 +1,9 @@
+<svg width="66" height="41" viewBox="0 0 66 41" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect y="0.5" width="65.2632" height="40" fill="url(#germanyFlag)"/>
+<defs>
+<pattern id="germanyFlag" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_52_647" transform="matrix(0.00200295 0 0 0.00326797 -0.0107527 0)"/>
+</pattern>
+<image id="image0_52_647" width="510" height="306" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAf4AAAEyAgMAAABmK1p5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAADFBMVEUAAADdAAD/zgD///9i/kqcAAAAAWJLR0QDEQxM8gAAAAd0SU1FB+gDEAYQBGhYtPoAAACWSURBVHja7c4xAQAwCAMwJPLgb/dUIqMHiYJUAQAAAAAAAAAAAAAAwHmT1QICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC+cDPegICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8cACIMvJ9YsLRw0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjQtMDMtMTZUMDY6MTY6MDQrMDA6MDC/ZoW1AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI0LTAzLTE2VDA2OjE2OjA0KzAwOjAwzjs9CQAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>
