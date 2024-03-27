@@ -7,6 +7,20 @@ import BrowseCards from "./pages/BrowseCards";
 import CardDetails from "./pages/CardDetails";
 import './index.css'
 
+/* TODO
+  Checkout Page (JS)
+  Sellers Page (Prototype / Figma / JS)
+  Inbox Page (Prototype / Figma / JS)
+  Trade Page (Prototype / Figma / JS)
+  Seller Inventory (Prototype / Figma / JS)
+  User Profile Page (Prototype / Figma / JS)
+  Seller Ratings / Review (Prototype / Figma / JS)
+  Support (Prototype / Figma / JS)
+
+  Search Filters (Prototype / Figma / JS)
+  
+*/
+
 
 function App() {
   // Store basic navigation here why not
