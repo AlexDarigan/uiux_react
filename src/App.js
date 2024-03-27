@@ -4,6 +4,7 @@ import Body from "./core/Body";
 import LoginForm from "./pages/LoginForm";
 import CreateAccountForm from "./pages/CreateAccountForm";
 import BrowseCards from "./pages/BrowseCards";
+import './index.css'
 
 function App() {
   // Store basic navigation here why not

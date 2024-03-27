@@ -83,13 +83,13 @@ export default function BrowseCards() {
   
   function HeaderCell({text}) {
     return (
-      <TableCell align="center" style={{backgroundColor: '#4D8CFF', border: '2px black solid'}}>{text}</TableCell>
+      <TableCell align="center" style={{backgroundColor: '#4D8CFF', border: '2px black solid', fontFamily: 'roboto', fontSize: '36px'}}><b>{text}</b></TableCell>
     )
   };
   
   function RowCell(props) {
     return (
-      <TableCell align="center" style={{border: '2px black solid'}}>{props.children}</TableCell>
+      <TableCell align="center" style={{border: '2px black solid', fontFamily: 'roboto', fontSize: '30px'}}>{props.children}</TableCell>
     )
   };
   
@@ -102,7 +102,14 @@ export default function BrowseCards() {
         <RowCell>Rare</RowCell>
         <RowCell>Alpha 001</RowCell>
         <RowCell>Magic: The Gathering</RowCell>
-        <RowCell>Add / Fave</RowCell>
+        <RowCell><button style={{
+            width: '100px', 
+            height: '60px', 
+            border: '3px solid black',
+            backgroundColor: 'orange',
+            boxShadow: '2px 2px 2px',
+            borderRadius: '6px'
+            }}>View</button></RowCell>
       </TableRow>
     )
   }
