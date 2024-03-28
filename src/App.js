@@ -13,19 +13,6 @@ import PublicUserProfile from "./pages/PublicUserProfile";
 
 
 
-/* TODO
-  Sellers Page (Prototype / Figma / JS)
-  Inbox Page (Prototype / Figma / JS)
-  Trade Page (Prototype / Figma / JS)
-  Seller Inventory (Prototype / Figma / JS)
-  User Profile Page (Prototype / Figma / JS)
-  Seller Ratings / Review (Prototype / Figma / JS)
-  Support (Prototype / Figma / JS)
-
-  Search Filters (Prototype / Figma / JS)
-  Header Menu (Prototype / Figma / JS)
-*/
-
 
 function App() {
   // Store basic navigation here why not
