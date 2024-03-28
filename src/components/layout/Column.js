@@ -8,6 +8,7 @@ export default function Column(props) {
                 alignItems: props.alignItems,
                 height: props.height,
                 margin: props.margin,
+                alignSelf: props.alignSelf,
                 // border: '2px black solid'
       }}
     >
@@ -23,4 +24,5 @@ Column.defaultProps = {
     alignItems: 'stretch',
     height: '100%',
     margin: '0px',
+    alignSelf: 'stretch'
 }

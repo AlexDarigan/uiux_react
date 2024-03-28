@@ -10,11 +10,16 @@ export default function Panel(props) {
                 flexDirection: props.flexDirection,
                 alignItems: props.alignItems,
                 backgroundColor: props.backgroundColor,
-                border: props.border,
+                borderWidth: props.borderWidth,
+                borderColor: props.borderColor,
+                borderStyle: props.borderStyle,
                 borderRadius: props.borderRadius,
                 boxShadow: props.boxShadow,
                 alignSelf: props.alignSelf,
-                alignContent: props.alignContent
+                alignContent: props.alignContent,
+                overflow: props.overflow,
+                overflowY: props.overflowY,
+                maxHeight: props.maxHeight,
             }}>
                 {props.children}
             </div>        
@@ -27,9 +32,14 @@ Panel.defaultProps = {
     flexDirection: 'column',
     alignItems: 'center',
     backgroundColor: 'royalblue',
-    border: '4px black solid',
+    borderWidth: '4px',
+    borderColor: 'black',
+    borderStyle: 'solid',
     borderRadius: '16px',
     boxShadow: '2px 2px 2px',
     alignSelf: 'stretch',
-    alignContent: 'flex-start'
+    alignContent: 'flex-start',
+    overflow: 'none',
+    overflowY: 'none',
+    maxHeight: '100%',
 }

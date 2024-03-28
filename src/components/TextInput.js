@@ -6,8 +6,9 @@ export default function TextInput(props) {
             margin: props.margin,
             marginRight: props.marginRight,
             width: props.width,
+            height: props.height,
             borderRadius: props.borderRadius,
-            boxShadow: props.boxShadow
+            boxShadow: props.boxShadow,
         }}></input>
     )
 };

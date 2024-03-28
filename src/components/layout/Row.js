@@ -5,7 +5,8 @@ export default function Row(props) {
             display: props.display,
             flexDirection: props.flexDirection,
             margin: props.margin,
-            alignItems: props.alignItems
+            alignItems: props.alignItems,
+            // border: '2px blue solid',
       }}>
         {props.children}
       </div>

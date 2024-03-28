@@ -8,6 +8,7 @@ import CardDetails from "src/pages/CardDetails";
 import CartPage from "src/pages/CartPage";
 import CheckoutPage from "src/pages/CheckoutPage";
 import './index.css';
+import Inbox from "./pages/Inbox";
 
 
 
@@ -37,7 +38,7 @@ function App() {
         flexDirection: 'column', 
         minHeight: '100vh'}}>
     <Header/>   
-    <Body content={<CreateAccountForm/>}/>    
+    <Body content={<Inbox/>}/>    
     {/* <Footer/> */}
     </div>
   );

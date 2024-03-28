@@ -9,6 +9,7 @@ export default function Circle(props) {
         borderStyle: props.style, 
         backgroundColor: props.color,
         borderRadius: props.radius,
+        margin: props.margin,
         }}>
           {props.children}
       </div>
@@ -20,4 +21,5 @@ export default function Circle(props) {
     color: 'orange',
     style: 'solid',
     radius: '24px',
+    margin: '0px',
   }
