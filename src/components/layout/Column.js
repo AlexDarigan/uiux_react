@@ -9,6 +9,10 @@ export default function Column(props) {
                 height: props.height,
                 margin: props.margin,
                 alignSelf: props.alignSelf,
+                overflow: props.overflow,
+                overflowY: props.overflowY,
+                maxHeight: props.maxHeight,
+                
                 // border: '2px black solid'
       }}
     >
@@ -24,5 +28,8 @@ Column.defaultProps = {
     alignItems: 'stretch',
     height: '100%',
     margin: '0px',
-    alignSelf: 'stretch'
+    alignSelf: 'stretch',
+    overflow: 'none',
+    overflowY: 'none',
+    maxHeight: '100%',
 }

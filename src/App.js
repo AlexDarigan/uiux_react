@@ -9,6 +9,7 @@ import CartPage from "src/pages/CartPage";
 import CheckoutPage from "src/pages/CheckoutPage";
 import './index.css';
 import Inbox from "./pages/Inbox";
+import PublicUserProfile from "./pages/PublicUserProfile";
 
 
 
@@ -38,7 +39,7 @@ function App() {
         flexDirection: 'column', 
         minHeight: '100vh'}}>
     <Header/>   
-    <Body content={<Inbox/>}/>    
+    <Body content={<PublicUserProfile/>}/>    
     {/* <Footer/> */}
     </div>
   );
