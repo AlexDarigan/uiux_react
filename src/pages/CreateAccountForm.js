@@ -1,77 +1,65 @@
 import { ReactComponent as MailIcon } from 'src/icons/mail.svg'
+import Labeled from 'src/components/Labeled'
+import TextInput from 'src/components/TextInput'
+import Row from 'src/components/layout/Row'
+import Circle from 'src/components/Circle'
+import Column from 'src/components/layout/Column'
+import Panel from 'src/components/Panel'
+import Button from 'src/components/Button'
 
 export default function CreateAccountForm() {
     return (
-      <div style={{
-          display: "flex",
-          flexDirection: "column",
-          flex: 1,
-          alignItems: 'center',
-          justifyContent: 'center',
-          margin: "0 auto", 
-          padding: "0", 
-      }}
-      >
-        <form style={{
-            display: "flex", 
-            flexDirection: "column", 
-            padding: '12px',
-            flex: .3,
-            backgroundColor: "#005AFF", 
-            border: '2px black solid'}}
-          >
-          <IconInput label={'Display Name'} iconRender={<MailIcon style={{position: 'relative', top: '-3', left: '3', height: '16', width: '16'}}/>}/>
+      <Panel alignSelf='center' alignContent='center' margin='42px'>
+        <Column margin='16px' alignItems='center'>
+          <Labeled label="Display Name">
+            <Row alignItems='center'>
+              <Circle>
+                <MailIcon style={{alignSelf: 'start', marginBottom: '20px', marginLeft: '-4px'}}/>
+              </Circle>
+              <TextInput></TextInput>
+            </Row>
+          </Labeled>
+
           <br></br>
-          <IconInput label={'Email'} iconRender={<MailIcon style={{position: 'relative', top: '-3', left: '3', height: '16', width: '16'}}/>}/>
+          
+          <Labeled label="Email">
+            <Row alignItems='center'>
+              <Circle>
+                <MailIcon style={{alignSelf: 'start', marginBottom: '20px', marginLeft: '-4px'}}/>
+              </Circle>
+              <TextInput></TextInput>
+            </Row>
+          </Labeled>
+          
           <br></br>
-          <IconInput label={'Password'} iconRender={<MailIcon style={{position: 'relative', top: '-3', left: '3', height: '16', width: '16'}}/>}/>
+          
+          <Labeled label="Password">
+            <Row alignItems='center'>
+              <Circle>
+                <MailIcon style={{alignSelf: 'start', marginBottom: '20px', marginLeft: '-4px'}}/>
+              </Circle>
+              <TextInput></TextInput>
+            </Row>
+          </Labeled>
+          
           <br></br>
-          <IconInput label={'Confirm Password'} iconRender={<MailIcon style={{position: 'relative', top: '-3', left: '3', height: '16', width: '16'}}/>}/>
+          
+          <Labeled label="Confirm Password">
+            <Row alignItems='center'>
+              <Circle>
+                <MailIcon style={{alignSelf: 'start', marginBottom: '20px', marginLeft: '-4px'}}/>
+              </Circle>
+              <TextInput></TextInput>
+            </Row>
+          </Labeled>
+
           <br></br>
           <br></br>
           <br></br>
-          <TextButton text={'Create Account'}/>
-        </form>
+
+          <Button width='60%'>Create Account</Button>
+        </Column>
         <br></br>
-      </div>
-    )
-  }
-  
-  function IconInput({label, iconRender}) {
-    return (
-      <div>
-      <label style={{
-        color: '#FFDB99', 
-        fontFamily: 'roboto', 
-        textShadow: '1px 1px 1px  #000, 1px 1px 1px  #000, 1px 1px 1px  #000, 1px 1px 1px  #000'}}>
-          <b>{label}</b>
-      </label>
-      <div style={{display: 'flex', flexDirection: 'row', alignContent: 'center'}}>
-        {/* <div> */}
-        <div style={{position: 'relative', height: '60%', flex: .5, margin: '8px'}}>
-          <div style={{
-            position: 'absolute',
-            top: '10%',
-            backgroundColor: '#FFA500', 
-            border: '12px #FFA500 solid', 
-            borderRadius: '24px', 
-        }}/>
-        {iconRender}
-        </div>
-        <input type='text' style={{flex: .75, margin: '4px', border: '2px #FFA500 solid', borderRadius: '2px'}}></input>
-      </div>
-    </div>
-    )
-  };
-  
-  function TextButton({text}) {
-    return (
-      <button  style={{
-        width: '200px',
-        alignSelf: 'center',
-        backgroundColor: "#FFA500",
-        borderRadius: '16px',
-        boxShadow: '2px 2px 2px'
-    }}>{text}</button>
+      </Panel>
     )
   }

@@ -37,7 +37,7 @@ function App() {
         flexDirection: 'column', 
         minHeight: '100vh'}}>
     <Header/>   
-    <Body content={<LoginForm/>}/>    
+    <Body content={<CreateAccountForm/>}/>    
     {/* <Footer/> */}
     </div>
   );
