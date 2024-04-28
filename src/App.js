@@ -10,25 +10,23 @@ import CheckoutPage from "src/pages/CheckoutPage";
 import './index.css';
 import Inbox from "./pages/Inbox";
 import PublicUserProfile from "./pages/PublicUserProfile";
-
+import { useState } from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 
 
 function App() {
   // Store basic navigation here why not
 
-
   return (
-    <div 
-      className="App" 
-      style={{
-        display: 'flex', 
-        flexDirection: 'column', 
-        minHeight: '100vh'}}>
-    <Header/>   
-    <Body content={<PublicUserProfile/>}/>    
-    {/* <Footer/> */}
-    </div>
+    <BrowserRouter>
+        <Routes>
+          <Route>
+            <Route path="/" element={<CreateAccountForm/>}/>
+            <Route path="/login" element={<LoginForm/>}/>
+          </Route>
+        </Routes>
+    </BrowserRouter>
   );
 }
 
